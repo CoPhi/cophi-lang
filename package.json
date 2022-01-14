@@ -1,0 +1,19 @@
+{
+  "name": "cophi-lang",
+  "version": "0.0.4",
+  "description": "Language definitions for the cophi languages",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "tsc": "tsc"
+  },
+  "author": "Simone Zenzaro",
+  "license": "LGPL-3.0-or-later",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
