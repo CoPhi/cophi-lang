@@ -29,6 +29,13 @@ export interface Language {
     capabilities: Promise<string[]> // list of capabilities (autocomplete, highlight, ...)  // TODO: maybe it is not needed
 }
 
+export interface CoherenceCheck {
+    id: string;
+    warnings: (code: string) => Promise<Warning[]>;
+    languages: string[];
+}
+
+export type Warning = Error;
 
 export interface Error {
     message: string;
